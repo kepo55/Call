@@ -20,7 +20,7 @@ echo "
         Youtube     : JKT Your Gaming
      Penggunaannya  : Bisa Menggunakan [08/62]
 ###########################################################\n";
-echo \033[1;31m Nomor\nInput" : ";
+echo \033[1;31m "Nomor\nInput : ";
 $nomor = trim(fgets(STDIN));
 $execute = send($nomor);
 print $execute;
